@@ -92,20 +92,15 @@
                 </div>
             </header>
         </div>
-        <!-- 테스트 시작-->
         <div id="header1"></div>
         <div id="slide1">
             <ul>
-                <li><a href="#"><img src="img/SLIDE1.png" alt="슬라이드1"></a></li>
-                <li><a href="#"><img src="img/SLIDE2.png" alt="슬라이드2"></a></li>
-                <li><a href="#"><img src="img/SLIDE3.png" alt="슬라이드3"></a></li>
+                <li><a href="#"><img src="img/SLIDE1.png" alt="슬라이드1" class="swiper-slide"></a></li>
+                <li><a href="#"><img src="img/SLIDE2.png" alt="슬라이드2" class="swiper-slide"></a></li>
+                <li><a href="#"><img src="img/SLIDE3.png" alt="슬라이드3" class="swiper-slide"></a></li>
             </ul>
         </div>
     </div>
-
-        <!-- 테스트 끝-->
-        <!-- 테스트 후 잘라내기 -->
-
         </div>
             <section id="banner">
                 <h2 class="hidden">상단 배너</h2>
@@ -138,12 +133,13 @@
             </section>
             <section id="best-acc">
                 <h2>가장 인기 많은 상품</h2>
-                <ul>
-                    <li><a href="#"><img src="img/best1.png" alt="best1"></a></li>
-                    <li><a href="#"><img src="img/best2.png" alt="best2"></a></li>
-                    <li><a href="#"><img src="img/best3.png" alt="best3"></a></li>
-                    <li><a href="#"><img src="img/best4.png" alt="best4"></a></li>
+                <ul class="swiper-wrapper">
+                    <li><a href="#"><img src="img/best1.png" alt="best1" class="swiper-slide" ></a></li>
+                    <li><a href="#"><img src="img/best2.png" alt="best2" class="swiper-slide" ></a></li>
+                    <li><a href="#"><img src="img/best3.png" alt="best3" class="swiper-slide" ></a></li>
+                    <li><a href="#"><img src="img/best4.png" alt="best4" class="swiper-slide" ></a></li>
                 </ul>
+                <div class="swiper-pagination"></div>
             </section>
             <section id="promotion">
                 <h2 class="hidden">프로모션</h2>
@@ -156,9 +152,9 @@
                 <h2>새로운 상품</h2>
                 <img src="img/newproducct.png" alt="new-product" class="new-right">
                 <ul>
-                    <li><a href="#"><img src="img/new1.png" alt="blackbag"></a></li>
-                    <li><a href="#"><img src="img/new2.png" alt="watch"></a></li>
-                    <li><a href="#"><img src="img/new3.png" alt="beigebag"></a></li>
+                    <li><a href="#"><img src="img/new1.png" alt="blackbag" class="newbag"></a></li>
+                    <li><a href="#"><img src="img/new2.png" alt="watch" class="newbag"></a></li>
+                    <li><a href="#"><img src="img/new3.png" alt="beigebag" class="newbag"></a></li>
                 </ul>
             </section>
             <div id="youtube">
@@ -209,5 +205,7 @@
         <!-- Swiper JS -->
         <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+        <script src="js/jquery.min.js"></script>
+        <script src="js/main.js"></script>
 </body>
 </html>
